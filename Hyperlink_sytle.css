@@ -1,0 +1,78 @@
+hr{
+
+	width: 250px;
+}
+a{
+
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+
+	display: block;
+	margin: 50px auto;
+	width: 140px;
+}
+a:link, a:visited{
+
+	color: #F55064;
+}
+/* --------------------------------------------------------------- */
+#HS01{
+
+	-webkit-transition: -webkit-transform .5s;
+			transition: -webkit-transform .5s;
+			transition: transform .5s;
+			transition: transform .5s, -webkit-transform .5s;
+}
+#HS01:hover{
+
+	-webkit-transform: translate(0px, -3px);
+	    -ms-transform: translate(0px, -3px);
+	        transform: translate(0px, -3px);
+}
+/* --------------------------------------------------------------- */
+#HS02{
+
+	height: 40px;
+	line-height: 40px;
+
+	-webkit-transition: color .5s;
+			transition: color .5s;
+}
+#HS02:hover{
+
+	color: #FFAAB4;
+}
+/* --------------------------------------------------------------- */
+#HS03_01{
+
+	text-align: center;
+	font-size: 20px;
+
+	display: block;
+	margin: 50px auto;
+}
+#HS03_02{
+
+	display: inline;
+
+	-webkit-transition: font-size .5s, -webkit-transform .5s;
+			transition: font-size .5s, -webkit-transform .5s;
+			transition: font-size .5s, transform .5s;
+			transition: font-size .5s, transform .5s, -webkit-transform .5s;
+}
+#HS03_02:hover{
+
+	font-size: 22px;
+}
+/* --------------------------------------------------------------- */
+#HS04{
+
+	border-radius: 5px;
+
+	-webkit-transition: background-color .5s;
+			transition: background-color .5s;
+}
+#HS04:hover{
+	background-color: #A0A0A0;
+}
